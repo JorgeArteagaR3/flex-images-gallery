@@ -69,3 +69,13 @@ html {
 .panels {
     display: flex;
 }
+@media only screen and (max-width: 450px) {
+    .panels {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        p {
+            font-size: 40%;
+        }
+    }
+}
